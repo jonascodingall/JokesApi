@@ -1,0 +1,81 @@
+[
+  {
+    "ContainingType": "JokesApi.Controllers.JokeController",
+    "Method": "CreateJoke",
+    "RelativePath": "api/v1/joke",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "requestJoke",
+        "Type": "JokesApi.Dtos.JokeRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "JokesApi.Controllers.JokeController",
+    "Method": "GetJokeById",
+    "RelativePath": "api/v1/joke/{jokeId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "jokeId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "JokesApi.Controllers.JokeController",
+    "Method": "UpdateJoke",
+    "RelativePath": "api/v1/joke/{jokeId}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "jokeId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "requestJoke",
+        "Type": "JokesApi.Dtos.JokeRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "JokesApi.Controllers.JokeController",
+    "Method": "DeleteJoke",
+    "RelativePath": "api/v1/joke/{jokeId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "jokeId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "JokesApi.Controllers.JokeController",
+    "Method": "GetAllJokes",
+    "RelativePath": "api/v1/joke/jokes",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]
